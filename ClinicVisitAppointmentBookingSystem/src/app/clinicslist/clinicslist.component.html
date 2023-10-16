@@ -1,0 +1,21 @@
+<body>
+    <app-navbar></app-navbar>
+    <div class="container1" style="margin-top:8%;">
+    <table class="table table-bordered">
+        <caption style="text-align:center;">Select a Clinic to schedule an appointment</caption>
+        <thead >
+        <tr>
+            <th scope="col">Clinic Name</th>
+            <th scope="col">Clinic Address</th>
+            <th scope="col"></th>
+        </tr></thead>
+        <tbody>
+        <tr *ngFor="let i of clinics">
+            <td>{{i.clinicName}}</td>
+            <td>{{i.clinicAddress}}</td>
+            <td><a  [routerLink]="['/schedulevisit',i.id,Service]" class="btn btn-dark" style="background-color: #8659D3FF; border-color: #8659D3FF;">select</a></td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+</body>

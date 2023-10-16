@@ -1,0 +1,11 @@
+﻿C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\Controllers\SchedulesController.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\Middleware\ExceptionHandlingMiddleware.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\Program.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\obj\Debug\net7.0\ScheduleMicroservice.GlobalUsings.g.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\obj\Debug\net7.0\ScheduleMicroservice.AssemblyInfo.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\obj\Debug\net7.0\ScheduleMicroservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\appsettings.Development.json
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\appsettings.json
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\Logs\log.txt
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\Properties\launchSettings.json

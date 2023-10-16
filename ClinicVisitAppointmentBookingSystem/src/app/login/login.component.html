@@ -1,0 +1,53 @@
+<body>
+<div class="rectangle1"></div>
+<div class="container1">
+    <img class="image" src=".\assets\logo2.png"  alt="logo" style="background-color:white; border-radius:4%;"/>
+    <div class="text1"><strong>Clivisit</strong></div>
+    <div class="header-menu">
+        <a [routerLink]="['/login']" class="header-menu-item">Login</a>
+        <a [routerLink]="['/signup']" class="header-menu-item">SignUp</a>
+    </div>
+</div>
+<div class="title">Clinic Visit - Appointment Booking System</div>
+<div class="container2">
+    <div class="card shadow">
+        <div class="card-body">
+            <h1 class="text2">Welcome</h1>
+            <h1 class="text3">Login</h1>
+            <div id="message" style="padding:13px 13px;">
+                <span *ngIf="invalidLogin" class="alert alert-danger alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" (click)="closeinvalidLogin()" aria-label="alert" ></button> 
+                    Invalid Username or Password</span>
+            </div>
+            <form [formGroup]="form"  (ngSubmit)="Login()" novalidate>
+                <div class="form-group">
+                    <label for="username" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 1%;">Username</label>
+                    <input class="form-control" [class.is-invalid]="username?.invalid" id="username" placeholder="Username" type="text" formControlName="username" required>
+                    <div *ngIf="username?.invalid && (username?.touched ||username?.dirty)">
+                        <small class="text-danger" *ngIf="username?.errors?.['required']">Username is required</small>
+                    </div><br>
+                    <label for="password" style="font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 1%;">Password</label>
+                    <input class="form-control" [class.is-invalid]="password?.invalid" id="password" placeholder="Password" type="password" formControlName="password" required>
+                    <div *ngIf="password?.invalid && (password?.touched ||password?.dirty)">
+                        <small class="text-danger" *ngIf="password?.errors?.['required']">Password is required</small>
+                      
+                    </div>
+                    <button class="btn btn-dark" id="bttn" type="submit" [disabled]="!form.valid">Sign in</button>
+                    <p style="margin-bottom: 7%;"><strong>New around here ?</strong> &nbsp;<a class="btn btn-light" style="color:#8659D3FF; border-color:#8659D3FF ;" [routerLink]="['/signup']">Sign up</a></p>
+
+                </div>
+            </form>
+       
+        </div>
+    </div>
+</div>
+<div class="group1">
+    ___ <span style="font-family:Georgia, 'Times New Roman', Times, serif;">,,</span> ____________
+</div>
+<div class="text4"> Join us to <strong>effortlessly</strong> &nbsp;schedule your clinic &nbsp;appointments</div>
+<div class="group2">
+    ____________ <span style="font-family:Georgia, 'Times New Roman', Times, serif;">,,</span> ___
+</div>
+<div class="image3"><img  src=".\assets\dots.png" alt="image"/></div>
+<div class="rectangle2"></div>
+</body>

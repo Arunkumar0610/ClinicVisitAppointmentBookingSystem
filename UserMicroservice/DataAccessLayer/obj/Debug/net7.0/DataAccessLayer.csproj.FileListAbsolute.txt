@@ -1,0 +1,12 @@
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll

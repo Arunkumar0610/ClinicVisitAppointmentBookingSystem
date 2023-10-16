@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dmbuGL2CVImnV1jvB0UwOyC/uctgxUpGPd5Ullg2jTM=",
+  "Source": "ScheduleMicroservice",
+  "BasePath": "_content/ScheduleMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

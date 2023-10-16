@@ -1,0 +1,27 @@
+Product projects
+---------------------------------------
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\DataAccessLayer\DataAccessLayer.csproj
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\BusinessLogicLayer.csproj
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\UserMicroservice.csproj
+
+
+Test projects
+---------------------------------------
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroServiceTest\UserMicroServiceTest.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

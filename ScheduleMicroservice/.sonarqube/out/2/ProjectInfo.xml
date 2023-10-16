@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ScheduleMicroservice</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>c03fc586-a504-4f8b-a44e-4b661775c2d2</ProjectGuid>
+  <FullPath>C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\ScheduleMicroservice\ScheduleMicroservice.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\.sonarqube\conf\2\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.coverage.exclusions">**/ExceptionHandlingMiddleware.cs,**/Program.cs</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\.sonarqube\out\2\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\.sonarqube\out\2</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net7.0</TargetFramework>
+</ProjectInfo>

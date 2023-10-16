@@ -1,0 +1,14 @@
+
+<div class="rectangle1">
+    <span id="username" ><fa-icon [icon]="['far','user-circle']" size="xl" ></fa-icon>&nbsp; {{Username}}</span>
+    <a class="btn btn-light my-2 my-sm-0" style="position: absolute; right:10px;top:10px; color:#8659D3FF;" id="logout" (click)="Logout()"> 
+        &nbsp;Logout</a>
+</div>
+<div class="container1">
+    <img class="image" src=".\assets\logo2.png" alt="logo" style="background-color:white; border-radius:4%"/>
+    <div class="text1"><strong>Clivisit</strong></div>
+    <div class="header-menu">
+        <a [routerLink]="['/home']" class="header-menu-item">Home</a>
+        <a [routerLink]="['/scheduleappointment']" class="header-menu-item">Schedule Appointment</a>
+    </div>
+</div>

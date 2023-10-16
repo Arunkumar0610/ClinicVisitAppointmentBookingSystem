@@ -1,0 +1,115 @@
+<body>
+    <div id="message">
+        <div *ngIf="success" class="alert alert-success alert-dismissible fade show " >
+            <button type="button" class="btn-close" data-bs-dismiss="alert" (click)="closesuccess()"  aria-label="alert" ></button> 
+            {{this.Users.userName}} Registered Successfully !
+       </div> </div>
+<div class="rectangle1"></div>
+<div class="container1">
+    <img class="image" src=".\assets\logo2.png" alt="logo" style="background-color:white;border-radius:4%"/>
+    <div class="text1"><strong>Clivisit</strong></div>
+    <div class="header-menu">
+        <a [routerLink]="['/login']" class="header-menu-item">Login</a>
+        <a [routerLink]="['/signup']" class="header-menu-item">SignUp</a>
+    </div>
+</div>
+<div class="container2">
+    <p class="text2">You are about &nbsp;to become a member</p>
+    <div class="rectangle2"></div>
+    <div ><img class="image2"  src=".\assets\signupimg.png" alt="image" ></div>
+</div>
+<div class="container3">
+    <div class="card shadow">
+        <div class="card-body ">
+            <h1 class="text3">SignUp</h1>
+            <div id="message" style="padding:13px 13px;">
+                <span *ngIf="adddetails" class="alert alert-danger alert-dismissible fade show">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" (click)="close()" aria-label="alert" ></button> 
+                     Username or Email already exists</span>
+            </div>
+            <form  [formGroup]="form"  (ngSubmit)="UserRegistration()" novalidate>
+            <div class="row">
+                <div class="col-3" style="text-align: end;"><label for="firstname">First Name:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="firstname?.invalid" id="firstname" placeholder="First Name" type="text" formControlName="firstname" required>
+                    <div *ngIf="firstname?.invalid && (firstname?.touched ||firstname?.dirty)">
+                        <small class="text-danger" *ngIf="firstname?.errors?.['required']">First Name is required</small>
+                        <small class="text-danger" *ngIf="firstname?.errors?.['minlength']">First Name must have atleast 5 characters</small>
+                        <small class="text-danger" *ngIf="firstname?.errors?.['maxlength']">First Name must have atmost 20 characters only</small>
+                    </div><br></div>
+            </div>
+            <div class="row">
+                <div class="col-3" style="text-align: end;"><label for="lastname">Last Name:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="lastname?.invalid" id="lastname" placeholder="Last Name" type="text" formControlName="lastname" required>
+                    <div *ngIf="lastname?.invalid && (lastname?.touched ||lastname?.dirty)">
+                        <small class="text-danger" *ngIf="lastname?.errors?.['required']">Last Name is required</small>
+                        <small class="text-danger" *ngIf="lastname?.errors?.['minlength']">Last Name must have atleast 5 characters</small>
+                        <small class="text-danger" *ngIf="lastname?.errors?.['maxlength']">Last Name must have atmost 20 characters only</small>
+                    </div><br></div>
+            </div>
+            <div class="row">
+                <div class="col-3" style="text-align: end;"><label for="username">Username:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="username?.invalid" id="username" placeholder="Username" type="text" formControlName="username" required>
+                    <div *ngIf="username?.invalid && (username?.touched ||username?.dirty)">
+                        <small class="text-danger" *ngIf="username?.errors?.['required']">Username is required</small>
+                    </div><br></div>
+            </div>
+            <div class="row">
+                <div class="col-3" style="text-align: end;"><label for="password">Password:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="password?.invalid" id="password" placeholder="Password" type="password" formControlName="password" required>
+                    <div *ngIf="password?.invalid && (password?.touched ||password?.dirty)">
+                        <small class="text-danger" *ngIf="password?.errors?.['required']">Password is required</small>
+                        <small class="text-danger" *ngIf="password?.errors?.['pattern']">Password must contain total atleast 8 to 15 characters atmost and must contain atleast one uppercase,one lowercase,one number, and one special character</small>
+                    </div><br></div>
+            </div>
+            <div class="row">
+                <div class="col-3" style="text-align: end;"><label for="confirmpassword">Confirm Password:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="confirmpassword?.invalid" id="confirmpassword" placeholder="Confirm Password" type="password" formControlName="confirmpassword" required>
+                    <div *ngIf="confirmpassword?.invalid && (confirmpassword?.touched ||confirmpassword?.dirty)">
+                        <small class="text-danger" *ngIf="confirmpassword?.errors?.['required']">ConfirmPassword is required</small>
+                        <small class="text-danger" *ngIf="confirmpassword?.errors?.['pattern']">ConfirmPassword must contain total atleast 8 to 15 characters atmost and must contain atleast one uppercase,one lowercase,one number, and one special character</small>
+                        </div><br>
+                    <div *ngIf=" password?.valid && confirmpassword?.touched">
+                        <small class="text-danger" *ngIf="confirmpassword!.value!=password!.value" >Password and ConfirmPassword are not matched</small>
+                        <small class="text-success" *ngIf="confirmpassword!.value==password!.value">Password and ConfirmPassword are  matched</small>    
+                    </div></div>
+            </div>
+            <div class="row" >
+                <div class="col-3" style="text-align: end;"><label for="email">Email:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="email?.invalid" id="email" placeholder="Email Address" type="email" formControlName="email" required>
+                    <div *ngIf="email?.invalid && (email?.touched ||email?.dirty)">
+                        <small class="text-danger" *ngIf="email?.errors?.['required']">Email is required</small>
+                        <small class="text-danger" *ngIf="email?.errors?.['email']">Please provide valid email address</small>
+                    </div><br></div>
+            </div>
+            <div class="row">
+                <div class="col-3"style="text-align: end;"><label for="dateOfBirth">Date Of Birth:</label></div>
+                <div class="col-9"><input class="form-control"   id="dateOfBirth"  type="date" formControlName="dateOfBirth"  required/>
+
+                    <div *ngIf="dateOfBirth?.invalid && (dateOfBirth?.touched ||dateOfBirth?.dirty)">
+                        <small class="text-danger" *ngIf="dateOfBirth?.errors?.['required']">DateOfBirth is required</small>
+                        
+                    </div><br>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-3" style="text-align: end;"><label for="phoneNumber">Phone Number:</label></div>
+                <div class="col-9"><input class="form-control" [class.is-invalid]="phoneNumber?.invalid" id="phoneNumber" placeholder="PhoneNumber" type="text" formControlName="phoneNumber" required>
+                    <div *ngIf="phoneNumber?.invalid && (phoneNumber?.touched ||phoneNumber?.dirty)">
+                        <small class="text-danger" *ngIf="phoneNumber?.errors?.['required']">PhoneNumber is required</small>
+                        <small class="text-danger" *ngIf="phoneNumber?.errors?.['pattern']">Please provide valid PhoneNumber</small>
+                    </div></div>
+            </div>
+            <div class="row" style="margin-top: 2%;" >
+                <div class="col-3" style="text-align:end;"><label for="gender">Gender:</label></div>
+                <div class="col-3"><div class="form-check"><input type="radio" class="form-check-input" name="gender" value="Male" formControlName="gender"/><label class="form-check-label" for="gender">Male</label> </div></div>
+                <div class="col-3"><div class="form-check"><input type="radio"class="form-check-input" name="gender" value="Female" formControlName="gender"/> <label class="form-check-label" for="gender">Female</label></div></div>
+                <div class="col-3"><div class="form-check"><input type="radio"class="form-check-input" name="gender" value="Pefer not to say" formControlName="gender"/><label class="form-check-label" for="gender"> Prefer not to say</label></div></div>
+            </div>
+            <div class="row" style="margin-top: 2%;">
+                <button class="btn btn-dark" style="background-color: #8659D3FF; left:45%; width:20%; height:10%; position:relative;" type="submit" [disabled]="!form.valid" >Submit</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+</body>

@@ -1,0 +1,51 @@
+/* Rectangle 2 */
+.rectangle2 {
+    position: absolute; 
+    top: 70%; 
+    left: 0%; 
+    width: 26%; 
+    height: 30%; 
+    background: #8659D3FF; /* primary-500 */
+    border-radius: 0px 24px 0px  0px; /* border-xl */
+  }
+
+  thead th {
+      background-color: #8659D3FF;
+      color:white;
+
+  }
+  tbody td{
+      background-color: rgb(244, 239, 253);
+
+  }
+  th {
+      text-align: center;
+      padding: 2%;
+  }
+  td{
+      text-align: center;
+      padding: 2%;
+  }
+  table{
+      position: absolute;
+      width:70%;
+      left:15%;
+      border-radius:10px ;
+      overflow: hidden;
+  }
+  @media (max-width:768px) {
+    .rwd{ 
+        display: flex; 
+        justify-content: center;  
+        max-width: 100%; 
+    }
+    .table{
+      top:30%;
+      width:90%;
+      left:5%;
+    }
+    .rectangle2{
+      height:60%;
+    }
+  }
+  

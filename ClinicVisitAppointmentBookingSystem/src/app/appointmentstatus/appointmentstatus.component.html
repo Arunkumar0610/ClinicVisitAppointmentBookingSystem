@@ -1,0 +1,48 @@
+<body>
+    <app-navbar></app-navbar>
+    <div class="container2">
+        <div class="card shadow">
+            <div class="card-body">
+                <img src=".\assets\green-tick.png" class="image1" alt="tick">
+                <h3 class="text3">You have Successfully Scheduled the visit</h3>
+                <p class="text2">Make sure you arrive 30 minutes prior to the scheduled appointment time</p>
+                <div class="container1" style="margin-top:8%;">
+                    <table class="table table-responsive shadow ">
+                       <caption style="text-align: center;">Successfully Scheduled Appointment</caption>
+                        <tbody *ngIf="clinics!=null">
+                            <tr>
+                                <th scope="col">Name : </th>
+                                <td >{{clinics.patientuserName}}</td>
+                               
+                            </tr>
+                        <tr>
+                            <th scope="col">Clinic Name : </th>
+                            <td>{{clinics.clinicName}}</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="col">Clinic Address : </th>
+                            <td>{{clinics.clinicAddress}}</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="col">Service : </th>
+                            <td>{{clinics.service}}</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="col">Date & Time of Visit : </th>
+                            <td style="color:rgb(73, 206, 73)">{{clinics.dateTimeOfVisit | date:'dd-MMM-yyyy hh:mm a':'GMT'}}</td>
+
+                           
+                        </tr>
+                    </tbody>
+                    </table>
+                    <a [routerLink]="['/home']" id="bttn" class="btn btn-dark"><fa-icon [icon]="['fas','house']" size="lg" ></fa-icon> &nbsp; Back to home</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="rectangle2"></div>
+</body>

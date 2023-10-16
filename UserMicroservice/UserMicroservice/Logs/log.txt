@@ -1,0 +1,1075 @@
+09/11/2023 18:22:50 Register a user
+09/11/2023 18:22:51 HTTP "POST" "/api/Users/register" responded 500 in 907.3448 ms
+System.Exception: Error occured
+   at BusinessLogicLayer.Services.UserService.Register(PatientRegisterDTO user) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 80
+   at UserMicroservice.Controllers.UsersController.Register(PatientRegisterDTO user) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 70
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+09/11/2023 18:22:51 An unhandled exception has occurred while executing the request.
+System.Exception: Error occured
+   at BusinessLogicLayer.Services.UserService.Register(PatientRegisterDTO user) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 80
+   at UserMicroservice.Controllers.UsersController.Register(PatientRegisterDTO user) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 70
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+09/15/2023 13:18:12 Login User
+09/15/2023 13:18:12 Login is in progress
+09/15/2023 13:18:12 Started generting the token......
+09/15/2023 13:18:12 Token generted Successfully
+09/15/2023 13:18:12  Arun123 Logged In Successfully
+09/15/2023 13:18:12 HTTP "POST" "/api/Users/login" responded 200 in 2744.9926 ms
+09/15/2023 14:38:08 HTTP "OPTIONS" "/api/Userslogin" responded 204 in 2.1631 ms
+09/15/2023 14:39:04 HTTP "OPTIONS" "/api/Users/login" responded 204 in 1.6720 ms
+09/15/2023 14:39:19 HTTP "OPTIONS" "/api/Users/login" responded 204 in 1.3286 ms
+09/15/2023 14:41:02 HTTP "OPTIONS" "/api/Users/login" responded 204 in 2.2989 ms
+09/15/2023 14:42:42 HTTP "OPTIONS" "/api/Users/login" responded 204 in 0.4063 ms
+09/15/2023 14:47:46 Login User
+09/15/2023 14:47:46 Login is in progress
+09/15/2023 14:47:46 Started generting the token......
+09/15/2023 14:47:46 Token generted Successfully
+09/15/2023 14:47:46  Arun123 Logged In Successfully
+09/15/2023 14:47:46 HTTP "POST" "/api/Users/login" responded 200 in 2610.7997 ms
+09/15/2023 14:49:13 Login User
+09/15/2023 14:49:13 Login is in progress
+09/15/2023 14:49:13 Started generting the token......
+09/15/2023 14:49:13 Token generted Successfully
+09/15/2023 14:49:13  Arun123 Logged In Successfully
+09/15/2023 14:49:13 HTTP "POST" "/api/Users/login" responded 200 in 31.2752 ms
+09/15/2023 14:49:26 Login User
+09/15/2023 14:49:27 Login is in progress
+09/15/2023 14:49:27 Started generting the token......
+09/15/2023 14:49:27 Token generted Successfully
+09/15/2023 14:49:28  Arun123 Logged In Successfully
+09/15/2023 14:49:28 HTTP "POST" "/api/Users/login" responded 200 in 3400.2308 ms
+09/15/2023 14:49:31 Login User
+09/15/2023 14:49:31 Login is in progress
+09/15/2023 14:49:31 Started generting the token......
+09/15/2023 14:49:31 Token generted Successfully
+09/15/2023 14:49:31  Arun123 Logged In Successfully
+09/15/2023 14:49:31 HTTP "POST" "/api/Users/login" responded 200 in 31.4327 ms
+09/15/2023 14:49:33 Login User
+09/15/2023 14:49:33 Login is in progress
+09/15/2023 14:49:33 Started generting the token......
+09/15/2023 14:49:33 Token generted Successfully
+09/15/2023 14:49:33  Arun123 Logged In Successfully
+09/15/2023 14:49:33 HTTP "POST" "/api/Users/login" responded 200 in 11.7498 ms
+09/15/2023 14:49:34 Login User
+09/15/2023 14:49:34 Login is in progress
+09/15/2023 14:49:34 Started generting the token......
+09/15/2023 14:49:34 Token generted Successfully
+09/15/2023 14:49:34  Arun123 Logged In Successfully
+09/15/2023 14:49:34 HTTP "POST" "/api/Users/login" responded 200 in 6.9743 ms
+09/15/2023 14:49:34 Login User
+09/15/2023 14:49:34 Login is in progress
+09/15/2023 14:49:34 Started generting the token......
+09/15/2023 14:49:34 Token generted Successfully
+09/15/2023 14:49:34  Arun123 Logged In Successfully
+09/15/2023 14:49:34 HTTP "POST" "/api/Users/login" responded 200 in 6.7743 ms
+09/15/2023 14:49:35 Login User
+09/15/2023 14:49:35 Login is in progress
+09/15/2023 14:49:35 Started generting the token......
+09/15/2023 14:49:35 Token generted Successfully
+09/15/2023 14:49:35  Arun123 Logged In Successfully
+09/15/2023 14:49:35 HTTP "POST" "/api/Users/login" responded 200 in 7.7048 ms
+09/15/2023 14:49:36 Login User
+09/15/2023 14:49:36 Login is in progress
+09/15/2023 14:49:36 Started generting the token......
+09/15/2023 14:49:36 Token generted Successfully
+09/15/2023 14:49:36  Arun123 Logged In Successfully
+09/15/2023 14:49:36 HTTP "POST" "/api/Users/login" responded 200 in 8.8067 ms
+09/15/2023 14:49:36 Login User
+09/15/2023 14:49:36 Login is in progress
+09/15/2023 14:49:36 Started generting the token......
+09/15/2023 14:49:36 Token generted Successfully
+09/15/2023 14:49:36  Arun123 Logged In Successfully
+09/15/2023 14:49:36 HTTP "POST" "/api/Users/login" responded 200 in 6.8608 ms
+09/15/2023 14:49:36 Login User
+09/15/2023 14:49:36 Login is in progress
+09/15/2023 14:49:36 Started generting the token......
+09/15/2023 14:49:36 Token generted Successfully
+09/15/2023 14:49:36  Arun123 Logged In Successfully
+09/15/2023 14:49:36 HTTP "POST" "/api/Users/login" responded 200 in 29.9528 ms
+09/15/2023 14:49:36 Login User
+09/15/2023 14:49:36 Login is in progress
+09/15/2023 14:49:36 Started generting the token......
+09/15/2023 14:49:36 Token generted Successfully
+09/15/2023 14:49:36  Arun123 Logged In Successfully
+09/15/2023 14:49:36 HTTP "POST" "/api/Users/login" responded 200 in 6.9616 ms
+09/15/2023 14:49:36 Login User
+09/15/2023 14:49:36 Login is in progress
+09/15/2023 14:49:36 Started generting the token......
+09/15/2023 14:49:36 Token generted Successfully
+09/15/2023 14:49:36  Arun123 Logged In Successfully
+09/15/2023 14:49:36 HTTP "POST" "/api/Users/login" responded 200 in 5.9218 ms
+09/15/2023 14:49:37 Login User
+09/15/2023 14:49:37 Login is in progress
+09/15/2023 14:49:37 Started generting the token......
+09/15/2023 14:49:37 Token generted Successfully
+09/15/2023 14:49:37  Arun123 Logged In Successfully
+09/15/2023 14:49:37 HTTP "POST" "/api/Users/login" responded 200 in 8.8987 ms
+09/15/2023 14:49:37 Login User
+09/15/2023 14:49:37 Login is in progress
+09/15/2023 14:49:37 Started generting the token......
+09/15/2023 14:49:37 Token generted Successfully
+09/15/2023 14:49:37  Arun123 Logged In Successfully
+09/15/2023 14:49:37 HTTP "POST" "/api/Users/login" responded 200 in 7.6772 ms
+09/15/2023 14:49:37 Login User
+09/15/2023 14:49:37 Login is in progress
+09/15/2023 14:49:37 Started generting the token......
+09/15/2023 14:49:37 Token generted Successfully
+09/15/2023 14:49:37  Arun123 Logged In Successfully
+09/15/2023 14:49:37 HTTP "POST" "/api/Users/login" responded 200 in 7.9583 ms
+09/15/2023 14:49:37 Login User
+09/15/2023 14:49:37 Login is in progress
+09/15/2023 14:49:37 Started generting the token......
+09/15/2023 14:49:37 Token generted Successfully
+09/15/2023 14:49:37  Arun123 Logged In Successfully
+09/15/2023 14:49:37 HTTP "POST" "/api/Users/login" responded 200 in 8.0074 ms
+09/15/2023 14:51:03 Login User
+09/15/2023 14:51:03 Login is in progress
+09/15/2023 14:51:03 Started generting the token......
+09/15/2023 14:51:03 Token generted Successfully
+09/15/2023 14:51:03  Arun123 Logged In Successfully
+09/15/2023 14:51:03 HTTP "POST" "/api/Users/login" responded 200 in 6.7505 ms
+09/15/2023 14:51:10 Login User
+09/15/2023 14:51:10 Login is in progress
+09/15/2023 14:51:10 Started generting the token......
+09/15/2023 14:51:10 Token generted Successfully
+09/15/2023 14:51:10  Arun123 Logged In Successfully
+09/15/2023 14:51:10 HTTP "POST" "/api/Users/login" responded 200 in 6.4095 ms
+09/15/2023 14:51:18 Login User
+09/15/2023 14:51:18 Login is in progress
+09/15/2023 14:51:18 Started generting the token......
+09/15/2023 14:51:18 Token generted Successfully
+09/15/2023 14:51:18  Arun123 Logged In Successfully
+09/15/2023 14:51:18 HTTP "POST" "/api/Users/login" responded 200 in 6.6302 ms
+09/15/2023 14:52:48 Login User
+09/15/2023 14:52:48 Login is in progress
+09/15/2023 14:52:48 Started generting the token......
+09/15/2023 14:52:48 Token generted Successfully
+09/15/2023 14:52:48  Arun123 Logged In Successfully
+09/15/2023 14:52:48 HTTP "POST" "/api/Users/login" responded 200 in 6.0173 ms
+09/15/2023 14:53:26 Login User
+09/15/2023 14:53:26 Login is in progress
+09/15/2023 14:53:26 Started generting the token......
+09/15/2023 14:53:26 Token generted Successfully
+09/15/2023 14:53:26  Arun123 Logged In Successfully
+09/15/2023 14:53:26 HTTP "POST" "/api/Users/login" responded 200 in 8.3294 ms
+09/15/2023 14:55:02 Login User
+09/15/2023 14:55:02 Login is in progress
+09/15/2023 14:55:02 Started generting the token......
+09/15/2023 14:55:02 Token generted Successfully
+09/15/2023 14:55:02  Arun123 Logged In Successfully
+09/15/2023 14:55:02 HTTP "POST" "/api/Users/login" responded 200 in 7.4024 ms
+09/20/2023 17:50:37 Login User
+09/20/2023 17:50:38 Login is in progress
+09/20/2023 17:50:38 Started generting the token......
+09/20/2023 17:50:38 Token generted Successfully
+09/20/2023 17:50:38  Arun123 Logged In Successfully
+09/20/2023 17:50:38 HTTP "POST" "/api/Users/login" responded 200 in 3244.2672 ms
+09/20/2023 22:15:42 Register a user
+09/20/2023 22:15:43 Registering.....
+09/20/2023 22:15:43 Registered Successfully
+09/20/2023 22:15:43 HTTP "POST" "/api/Users/register" responded 201 in 2102.8760 ms
+09/20/2023 22:18:13 Register a user
+09/20/2023 22:18:13 Registering.....
+09/20/2023 22:18:13 Registered Successfully
+09/20/2023 22:18:13 HTTP "POST" "/api/Users/register" responded 201 in 22.3406 ms
+09/20/2023 22:22:10 Register a user
+09/20/2023 22:22:10 Registering.....
+09/20/2023 22:22:10 User Already exists with EmailId or Username
+09/20/2023 22:22:10 HTTP "POST" "/api/Users/register" responded 400 in 14.1208 ms
+09/20/2023 22:22:35 Register a user
+09/20/2023 22:22:35 Registering.....
+09/20/2023 22:22:35 User Already exists with EmailId or Username
+09/20/2023 22:22:35 HTTP "POST" "/api/Users/register" responded 400 in 8.6136 ms
+09/20/2023 23:06:36 Register a user
+09/20/2023 23:06:36 Registering.....
+09/20/2023 23:06:36 Registered Successfully
+09/20/2023 23:06:36 HTTP "POST" "/api/Users/register" responded 201 in 29.5776 ms
+09/20/2023 23:07:39 Register a user
+09/20/2023 23:07:39 Registering.....
+09/20/2023 23:07:39 Registered Successfully
+09/20/2023 23:07:39 HTTP "POST" "/api/Users/register" responded 201 in 11.2685 ms
+09/20/2023 23:08:46 Register a user
+09/20/2023 23:08:46 Registering.....
+09/20/2023 23:08:46 Registered Successfully
+09/20/2023 23:08:46 HTTP "POST" "/api/Users/register" responded 201 in 8.2885 ms
+09/20/2023 23:10:46 Register a user
+09/20/2023 23:10:46 Registering.....
+09/20/2023 23:10:46 Registered Successfully
+09/20/2023 23:10:46 HTTP "POST" "/api/Users/register" responded 201 in 13.2299 ms
+09/20/2023 23:13:41 Register a user
+09/20/2023 23:13:41 Registering.....
+09/20/2023 23:13:41 Registered Successfully
+09/20/2023 23:13:41 HTTP "POST" "/api/Users/register" responded 201 in 1963.7659 ms
+09/20/2023 23:20:01 Register a user
+09/20/2023 23:20:01 Registering.....
+09/20/2023 23:20:01 Registered Successfully
+09/20/2023 23:20:01 HTTP "POST" "/api/Users/register" responded 201 in 18.5283 ms
+09/20/2023 23:51:29 Register a user
+09/20/2023 23:51:29 Registering.....
+09/20/2023 23:51:29 Registered Successfully
+09/20/2023 23:51:29 HTTP "POST" "/api/Users/register" responded 201 in 30.8109 ms
+09/21/2023 00:08:46 Register a user
+09/21/2023 00:08:46 Registering.....
+09/21/2023 00:08:46 Registered Successfully
+09/21/2023 00:08:46 HTTP "POST" "/api/Users/register" responded 201 in 28.1888 ms
+09/21/2023 00:10:31 Register a user
+09/21/2023 00:10:31 Registering.....
+09/21/2023 00:10:31 Registered Successfully
+09/21/2023 00:10:31 HTTP "POST" "/api/Users/register" responded 201 in 18.5208 ms
+09/21/2023 00:10:56 Login User
+09/21/2023 00:10:56 Login is in progress
+09/21/2023 00:10:56 Started generting the token......
+09/21/2023 00:10:56 Token generted Successfully
+09/21/2023 00:10:56  Arun1233 Logged In Successfully
+09/21/2023 00:10:56 HTTP "POST" "/api/Users/login" responded 200 in 228.1710 ms
+09/21/2023 00:11:00 Login User
+09/21/2023 00:11:00 Login is in progress
+09/21/2023 00:11:00 Login Failed Due to username or password are incorrect
+09/21/2023 00:11:00 HTTP "POST" "/api/Users/login" responded 401 in 5.7569 ms
+09/21/2023 00:11:06 Login User
+09/21/2023 00:11:06 Login is in progress
+09/21/2023 00:11:06 Started generting the token......
+09/21/2023 00:11:06 Token generted Successfully
+09/21/2023 00:11:06  Arun1233 Logged In Successfully
+09/21/2023 00:11:06 HTTP "POST" "/api/Users/login" responded 200 in 6.5617 ms
+09/21/2023 00:14:13 Login User
+09/21/2023 00:14:13 Login is in progress
+09/21/2023 00:14:13 Started generting the token......
+09/21/2023 00:14:13 Token generted Successfully
+09/21/2023 00:14:13  Arun1233 Logged In Successfully
+09/21/2023 00:14:13 HTTP "POST" "/api/Users/login" responded 200 in 43.1203 ms
+09/21/2023 00:16:11 Login User
+09/21/2023 00:16:11 Login is in progress
+09/21/2023 00:16:11 Started generting the token......
+09/21/2023 00:16:11 Token generted Successfully
+09/21/2023 00:16:11  Arun1233 Logged In Successfully
+09/21/2023 00:16:11 HTTP "POST" "/api/Users/login" responded 200 in 33.7684 ms
+09/21/2023 00:19:05 Login User
+09/21/2023 00:19:05 Login is in progress
+09/21/2023 00:19:05 Started generting the token......
+09/21/2023 00:19:05 Token generted Successfully
+09/21/2023 00:19:05  Arun1233 Logged In Successfully
+09/21/2023 00:19:05 HTTP "POST" "/api/Users/login" responded 200 in 9.5335 ms
+09/21/2023 00:24:45 Login User
+09/21/2023 00:24:45 Login is in progress
+09/21/2023 00:24:45 Started generting the token......
+09/21/2023 00:24:45 Token generted Successfully
+09/21/2023 00:24:45  Arun123 Logged In Successfully
+09/21/2023 00:24:45 HTTP "POST" "/api/Users/login" responded 200 in 11.0547 ms
+09/21/2023 00:25:48 Login User
+09/21/2023 00:25:48 Login is in progress
+09/21/2023 00:25:48 Started generting the token......
+09/21/2023 00:25:48 Token generted Successfully
+09/21/2023 00:25:48  Arun123 Logged In Successfully
+09/21/2023 00:25:48 HTTP "POST" "/api/Users/login" responded 200 in 10.4249 ms
+09/21/2023 00:26:33 Login User
+09/21/2023 00:26:33 Login is in progress
+09/21/2023 00:26:33 Started generting the token......
+09/21/2023 00:26:33 Token generted Successfully
+09/21/2023 00:26:33  Arun123 Logged In Successfully
+09/21/2023 00:26:33 HTTP "POST" "/api/Users/login" responded 200 in 12.0026 ms
+09/21/2023 00:27:50 Login User
+09/21/2023 00:27:50 Login is in progress
+09/21/2023 00:27:50 Started generting the token......
+09/21/2023 00:27:50 Token generted Successfully
+09/21/2023 00:27:50  Arun123 Logged In Successfully
+09/21/2023 00:27:50 HTTP "POST" "/api/Users/login" responded 200 in 11.2749 ms
+09/21/2023 00:29:56 Login User
+09/21/2023 00:29:56 Login is in progress
+09/21/2023 00:29:56 Started generting the token......
+09/21/2023 00:29:56 Token generted Successfully
+09/21/2023 00:29:56  Arun123 Logged In Successfully
+09/21/2023 00:29:56 HTTP "POST" "/api/Users/login" responded 200 in 12.3604 ms
+09/21/2023 00:30:36 Login User
+09/21/2023 00:30:36 Login is in progress
+09/21/2023 00:30:36 Started generting the token......
+09/21/2023 00:30:36 Token generted Successfully
+09/21/2023 00:30:36  Arun123 Logged In Successfully
+09/21/2023 00:30:36 HTTP "POST" "/api/Users/login" responded 200 in 7.1603 ms
+09/21/2023 00:33:27 Login User
+09/21/2023 00:33:27 Login is in progress
+09/21/2023 00:33:27 Started generting the token......
+09/21/2023 00:33:27 Token generted Successfully
+09/21/2023 00:33:27  Arun123 Logged In Successfully
+09/21/2023 00:33:27 HTTP "POST" "/api/Users/login" responded 200 in 10.3968 ms
+09/21/2023 12:35:59 Login User
+09/21/2023 12:35:59 Login is in progress
+09/21/2023 12:35:59 Started generting the token......
+09/21/2023 12:35:59 Token generted Successfully
+09/21/2023 12:35:59  Arun123 Logged In Successfully
+09/21/2023 12:35:59 HTTP "POST" "/api/Users/login" responded 200 in 2479.8830 ms
+09/21/2023 15:07:16 Register a user
+09/21/2023 15:07:16 Registering.....
+09/21/2023 15:07:17 Registered Successfully
+09/21/2023 15:07:17 HTTP "POST" "/api/Users/register" responded 201 in 3882.7130 ms
+09/21/2023 15:08:08 Register a user
+09/21/2023 15:08:08 Registering.....
+09/21/2023 15:08:08 User Already exists with EmailId or Username
+09/21/2023 15:08:08 HTTP "POST" "/api/Users/register" responded 400 in 33.4484 ms
+09/21/2023 15:08:28 HTTP "POST" "/api/Users/register" responded 400 in 25.2292 ms
+09/21/2023 15:09:47 Login User
+09/21/2023 15:09:47 Login is in progress
+09/21/2023 15:09:47 Started generting the token......
+09/21/2023 15:09:47 Token generted Successfully
+09/21/2023 15:09:47  Arun12334 Logged In Successfully
+09/21/2023 15:09:47 HTTP "POST" "/api/Users/login" responded 200 in 331.0833 ms
+09/21/2023 15:11:45 Register a user
+09/21/2023 15:11:45 Registering.....
+09/21/2023 15:11:45 Registered Successfully
+09/21/2023 15:11:45 HTTP "POST" "/api/Users/register" responded 201 in 16.9282 ms
+09/21/2023 15:12:08 Login User
+09/21/2023 15:12:08 Login is in progress
+09/21/2023 15:12:08 Started generting the token......
+09/21/2023 15:12:08 Token generted Successfully
+09/21/2023 15:12:08  gowri123 Logged In Successfully
+09/21/2023 15:12:08 HTTP "POST" "/api/Users/login" responded 200 in 10.7567 ms
+09/21/2023 18:59:28 Login User
+09/21/2023 18:59:28 Login is in progress
+09/21/2023 18:59:28 Started generting the token......
+09/21/2023 18:59:28 Token generted Successfully
+09/21/2023 18:59:28  Arun123 Logged In Successfully
+09/21/2023 18:59:28 HTTP "POST" "/api/Users/login" responded 200 in 2587.8155 ms
+09/22/2023 00:21:51 HTTP "POST" "/api/Users/register" responded 400 in 59.0944 ms
+09/22/2023 00:22:46 Register a user
+09/22/2023 00:22:46 Registering.....
+09/22/2023 00:22:46 Registered Successfully
+09/22/2023 00:22:46 HTTP "POST" "/api/Users/register" responded 201 in 259.9031 ms
+09/22/2023 00:24:40 Register a user
+09/22/2023 00:24:40 Registering.....
+09/22/2023 00:24:40 Registered Successfully
+09/22/2023 00:24:41 HTTP "POST" "/api/Users/register" responded 201 in 2343.9057 ms
+09/22/2023 00:25:15 HTTP "POST" "/api/Users/register" responded 400 in 17.2709 ms
+09/22/2023 00:35:47 HTTP "POST" "/api/Users/register" responded 400 in 1976.4918 ms
+09/22/2023 00:38:21 HTTP "POST" "/api/Users/register" responded 400 in 598.8482 ms
+09/22/2023 00:48:35 HTTP "POST" "/api/Users/register" responded 400 in 2053.4113 ms
+09/22/2023 00:57:19 HTTP "POST" "/api/Users/register" responded 400 in 1874.8268 ms
+09/22/2023 01:04:14 HTTP "POST" "/api/Users/register" responded 400 in 454.5610 ms
+09/22/2023 01:04:49 HTTP "POST" "/api/Users/register" responded 400 in 22.6225 ms
+09/22/2023 01:05:14 Register a user
+09/22/2023 01:05:14 Registering.....
+09/22/2023 01:05:14 Registered Successfully
+09/22/2023 01:05:14 HTTP "POST" "/api/Users/register" responded 201 in 386.1265 ms
+09/22/2023 01:08:11 Register a user
+09/22/2023 01:08:11 Registering.....
+09/22/2023 01:08:11 Registered Successfully
+09/22/2023 01:08:11 HTTP "POST" "/api/Users/register" responded 201 in 18.4906 ms
+09/22/2023 01:11:40 Register a user
+09/22/2023 01:11:40 Registering.....
+09/22/2023 01:11:40 Registered Successfully
+09/22/2023 01:11:40 HTTP "POST" "/api/Users/register" responded 201 in 15.9448 ms
+09/22/2023 01:13:01 Register a user
+09/22/2023 01:13:01 Registering.....
+09/22/2023 01:13:01 Registered Successfully
+09/22/2023 01:13:01 HTTP "POST" "/api/Users/register" responded 201 in 17.7109 ms
+09/22/2023 01:13:43 Login User
+09/22/2023 01:13:43 Login is in progress
+09/22/2023 01:13:43 Started generting the token......
+09/22/2023 01:13:43 Token generted Successfully
+09/22/2023 01:13:43  Arun123 Logged In Successfully
+09/22/2023 01:13:43 HTTP "POST" "/api/Users/login" responded 200 in 310.5893 ms
+09/22/2023 02:12:14 Login User
+09/22/2023 02:12:14 Login is in progress
+09/22/2023 02:12:14 Started generting the token......
+09/22/2023 02:12:14 Token generted Successfully
+09/22/2023 02:12:14  Arun123 Logged In Successfully
+09/22/2023 02:12:14 HTTP "POST" "/api/Users/login" responded 200 in 39.9815 ms
+09/22/2023 02:21:20 Login User
+09/22/2023 02:21:20 Login is in progress
+09/22/2023 02:21:20 Started generting the token......
+09/22/2023 02:21:20 Token generted Successfully
+09/22/2023 02:21:20  Arun123 Logged In Successfully
+09/22/2023 02:21:20 HTTP "POST" "/api/Users/login" responded 200 in 48.9032 ms
+09/22/2023 09:58:05 Login User
+09/22/2023 09:58:05 Login is in progress
+09/22/2023 09:58:05 Started generting the token......
+09/22/2023 09:58:05 Token generted Successfully
+09/22/2023 09:58:05  Arun123 Logged In Successfully
+09/22/2023 09:58:05 HTTP "POST" "/api/Users/login" responded 200 in 17.4366 ms
+09/23/2023 02:40:04 Login User
+09/23/2023 02:40:04 Login is in progress
+09/23/2023 02:40:04 Started generting the token......
+09/23/2023 02:40:04 Token generted Successfully
+09/23/2023 02:40:04  Arun123 Logged In Successfully
+09/23/2023 02:40:04 HTTP "POST" "/api/Users/login" responded 200 in 124.4205 ms
+09/23/2023 03:02:21 Login User
+09/23/2023 03:02:21 Login is in progress
+09/23/2023 03:02:21 Started generting the token......
+09/23/2023 03:02:21 Token generted Successfully
+09/23/2023 03:02:21  Arun123 Logged In Successfully
+09/23/2023 03:02:21 HTTP "POST" "/api/Users/login" responded 200 in 14.4745 ms
+09/23/2023 13:41:53 Login User
+09/23/2023 13:41:53 Login is in progress
+09/23/2023 13:41:53 Started generting the token......
+09/23/2023 13:41:53 Token generted Successfully
+09/23/2023 13:41:53  Arun123 Logged In Successfully
+09/23/2023 13:41:53 HTTP "POST" "/api/Users/login" responded 200 in 37.3375 ms
+09/23/2023 13:45:28 Login User
+09/23/2023 13:45:28 Login is in progress
+09/23/2023 13:45:28 Started generting the token......
+09/23/2023 13:45:28 Token generted Successfully
+09/23/2023 13:45:28  Arun123 Logged In Successfully
+09/23/2023 13:45:28 HTTP "POST" "/api/Users/login" responded 200 in 10.1118 ms
+09/23/2023 13:47:47 Login User
+09/23/2023 13:47:47 Login is in progress
+09/23/2023 13:47:47 Started generting the token......
+09/23/2023 13:47:47 Token generted Successfully
+09/23/2023 13:47:47  Arun123 Logged In Successfully
+09/23/2023 13:47:47 HTTP "POST" "/api/Users/login" responded 200 in 15.5501 ms
+09/23/2023 14:48:33 Login User
+09/23/2023 14:48:33 Login is in progress
+09/23/2023 14:48:33 Started generting the token......
+09/23/2023 14:48:33 Token generted Successfully
+09/23/2023 14:48:33  Arun123 Logged In Successfully
+09/23/2023 14:48:33 HTTP "POST" "/api/Users/login" responded 200 in 3316.8445 ms
+09/24/2023 13:33:54 Register a user
+09/24/2023 13:33:54 Registering.....
+09/24/2023 13:33:55 Registered Successfully
+09/24/2023 13:33:55 HTTP "POST" "/api/Users/register" responded 201 in 3011.6658 ms
+09/24/2023 13:35:26 Register a user
+09/24/2023 13:35:26 Registering.....
+09/24/2023 13:35:26 User Already exists with EmailId or Username
+09/24/2023 13:35:26 HTTP "POST" "/api/Users/register" responded 400 in 76.0897 ms
+09/24/2023 13:35:34 HTTP "POST" "/api/Users/register" responded 400 in 16.0464 ms
+09/24/2023 13:36:14 Login User
+09/24/2023 13:36:14 Error occured while login
+MongoDB.Driver.Linq.ExpressionNotSupportedException: Expression not supported: value(BusinessLogicLayer.Services.UserService).DecodeFrom64(c.Password).
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.MethodCallExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, MethodCallExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingAggregationOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.SingleOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 160
+09/24/2023 13:36:14 HTTP "POST" "/api/Users/login" responded 500 in 426.1872 ms
+MongoDB.Driver.Linq.ExpressionNotSupportedException: Expression not supported: value(BusinessLogicLayer.Services.UserService).DecodeFrom64(c.Password).
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.MethodCallExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, MethodCallExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingAggregationOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.SingleOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 160
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method31(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+09/24/2023 13:36:14 An unhandled exception has occurred while executing the request.
+MongoDB.Driver.Linq.ExpressionNotSupportedException: Expression not supported: value(BusinessLogicLayer.Services.UserService).DecodeFrom64(c.Password).
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.MethodCallExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, MethodCallExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.BinaryExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToAggregationExpressionTranslators.ExpressionToAggregationExpressionTranslator.Translate(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingAggregationOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.SingleOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 160
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method31(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+09/24/2023 13:39:03 Login User
+09/24/2023 13:39:03 Login is in progress
+09/24/2023 13:39:03 Decoding the password in base64Encode
+09/24/2023 13:39:03 Started generting the token......
+09/24/2023 13:39:03 Token generted Successfully
+09/24/2023 13:39:03  Gowri123 Logged In Successfully
+09/24/2023 13:39:03 HTTP "POST" "/api/Users/login" responded 200 in 3029.0164 ms
+09/24/2023 14:16:03 Login User
+09/24/2023 14:16:04 Login is in progress
+09/24/2023 14:16:04 Decoding the password in base64Encode
+09/24/2023 14:16:04 Started generting the token......
+09/24/2023 14:16:04 Token generted Successfully
+09/24/2023 14:16:04  Gowri123 Logged In Successfully
+09/24/2023 14:16:04 HTTP "POST" "/api/Users/login" responded 200 in 2475.7606 ms
+09/24/2023 15:55:13 Login User
+09/24/2023 15:55:13 Login is in progress
+09/24/2023 15:55:13 Decoding the password in base64Encode
+09/24/2023 15:55:14 Error occured while login
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+09/24/2023 15:55:14 HTTP "POST" "/api/Users/login" responded 500 in 2152.1821 ms
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method7(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+09/24/2023 15:55:14 An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method7(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+09/24/2023 15:56:08 Login User
+09/24/2023 15:56:08 Login is in progress
+09/24/2023 15:56:08 Decoding the password in base64Encode
+09/24/2023 15:56:08 Error occured while login
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+09/24/2023 15:56:08 HTTP "POST" "/api/Users/login" responded 500 in 947.8436 ms
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method7(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+09/24/2023 15:56:08 An unhandled exception has occurred while executing the request.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BusinessLogicLayer.Services.UserService.DecodeFrom64(String encodedData) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 205
+   at BusinessLogicLayer.Services.UserService.Login(LoginRequestDTO logReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 162
+   at UserMicroservice.Controllers.UsersController.Login(LoginRequestDTO loginReq) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 92
+   at lambda_method7(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+09/24/2023 15:56:48 Login User
+09/24/2023 15:56:48 Login is in progress
+09/24/2023 15:56:48 Decoding the password in base64Encode
+09/24/2023 15:56:48 Started generting the token......
+09/24/2023 15:56:48 Token generted Successfully
+09/24/2023 15:56:48  Gowri123 Logged In Successfully
+09/24/2023 15:56:48 HTTP "POST" "/api/Users/login" responded 200 in 165.2882 ms
+09/24/2023 15:57:51 Login User
+09/24/2023 15:57:52 Login is in progress
+09/24/2023 15:57:52 Decoding the password in base64Encode
+09/24/2023 15:57:52 Started generting the token......
+09/24/2023 15:57:52 Token generted Successfully
+09/24/2023 15:57:52  Gowri123 Logged In Successfully
+09/24/2023 15:57:52 HTTP "POST" "/api/Users/login" responded 200 in 994.1955 ms
+09/24/2023 16:17:14 Login User
+09/24/2023 16:17:15 Login is in progress
+09/24/2023 16:17:15 Decoding the password in base64Encode
+09/24/2023 16:17:15 Started generting the token......
+09/24/2023 16:17:15 Token generted Successfully
+09/24/2023 16:17:15  Gowri123 Logged In Successfully
+09/24/2023 16:17:15 HTTP "POST" "/api/Users/login" responded 200 in 2335.2376 ms
+09/24/2023 16:17:37 Reteriving all registered users
+09/24/2023 16:17:37 Retreiving.....
+09/24/2023 16:17:37 Reterived all registered users Successfully
+09/24/2023 16:17:37 HTTP "GET" "/api/Users/all" responded 200 in 127.2888 ms
+09/24/2023 16:17:51 Searching for a List of users by username
+09/24/2023 16:17:51 Searching.....
+09/24/2023 16:17:51 List of Users Found successfully
+09/24/2023 16:17:51 HTTP "GET" "/api/Users/search/a" responded 200 in 164.2971 ms
+09/26/2023 16:59:31 Login User
+09/26/2023 16:59:31 Login is in progress
+09/26/2023 16:59:31 Decoding the password in base64Encode
+09/26/2023 16:59:31 Started generting the token......
+09/26/2023 16:59:31 Token generted Successfully
+09/26/2023 16:59:31  Gowri123 Logged In Successfully
+09/26/2023 16:59:31 HTTP "POST" "/api/Users/login" responded 200 in 2032.3725 ms
+09/26/2023 16:59:56 Retrieving user by id
+09/26/2023 16:59:56 Error occured while retrieving user by userid
+System.FormatException: '123425' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.GetByIdAsync(String id) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 54
+09/26/2023 16:59:56 HTTP "GET" "/api/Users/123425" responded 500 in 232.3975 ms
+System.FormatException: '123425' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.GetByIdAsync(String id) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 54
+   at UserMicroservice.Controllers.UsersController.GetById(String id) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 43
+   at lambda_method26(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+09/26/2023 16:59:56 An unhandled exception has occurred while executing the request.
+System.FormatException: '123425' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Linq3Implementation.Misc.SerializationHelper.SerializeValue(IBsonSerializer serializer, ConstantExpression constantExpression, Expression containingExpression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionTranslators.ComparisonExpressionToFilterTranslator.Translate(TranslationContext context, BinaryExpression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateUsingQueryOperators(TranslationContext context, Expression expression)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.Translate(TranslationContext context, Expression expression, Boolean exprOk)
+   at MongoDB.Driver.Linq.Linq3Implementation.Translators.ExpressionToFilterTranslators.ExpressionToFilterTranslator.TranslateLambda(TranslationContext context, LambdaExpression lambdaExpression, IBsonSerializer parameterSerializer, Boolean asRoot)
+   at MongoDB.Driver.Linq.Linq3Implementation.LinqProviderAdapterV3.TranslateExpressionToFilter[TDocument](Expression`1 expression, IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry, LinqProvider linqProvider)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass50_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at BusinessLogicLayer.Services.UserService.GetByIdAsync(String id) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\Services\UserService.cs:line 54
+   at UserMicroservice.Controllers.UsersController.GetById(String id) in C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\UserMicroservice\Controllers\UsersController.cs:line 43
+   at lambda_method26(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+09/26/2023 17:00:23 Retrieving user by id
+09/26/2023 17:00:34 Retreiving....
+09/26/2023 17:01:06 User with Id =123456789123456789123456 not found
+09/26/2023 17:01:06 HTTP "GET" "/api/Users/123456789123456789123456" responded 404 in 42803.2679 ms
+09/26/2023 17:02:49 Login User
+09/26/2023 17:02:49 Login is in progress
+09/26/2023 17:07:49 Login User
+09/26/2023 17:07:49 Login is in progress
+09/26/2023 17:07:49 Login Failed Due to username or password are incorrect
+09/26/2023 17:07:49 HTTP "POST" "/api/Users/login" responded 401 in 649.6394 ms
+09/26/2023 17:08:09 HTTP "GET" "/api/Users/123456789123456789123456" responded 401 in 21.7010 ms
+09/26/2023 17:08:25 Login User
+09/26/2023 17:08:25 Login is in progress
+09/26/2023 17:08:25 Decoding the password in base64Encode
+09/26/2023 17:08:25 Started generting the token......
+09/26/2023 17:08:25 Token generted Successfully
+09/26/2023 17:08:26  Gowri123 Logged In Successfully
+09/26/2023 17:08:26 HTTP "POST" "/api/Users/login" responded 200 in 155.9037 ms
+09/26/2023 17:08:48 Retrieving user by id
+09/26/2023 17:08:48 User with Id =123456789123456789123456 not found
+09/26/2023 17:08:48 HTTP "GET" "/api/Users/123456789123456789123456" responded 404 in 105.1006 ms
+09/26/2023 23:35:57 Login User
+09/26/2023 23:35:58 Login is in progress
+09/26/2023 23:35:58 Decoding the password in base64Encode
+09/26/2023 23:35:58 Started generting the token......
+09/26/2023 23:35:58 Token generted Successfully
+09/26/2023 23:35:58  Gowri123 Logged In Successfully
+09/26/2023 23:35:58 HTTP "POST" "/api/Users/login" responded 200 in 3586.1718 ms
+09/26/2023 23:55:47 HTTP "POST" "/api/Users/register" responded 400 in 2865.9252 ms
+09/26/2023 23:56:13 Register a user
+09/26/2023 23:56:13 Registering.....
+09/26/2023 23:56:13 Registered Successfully
+09/26/2023 23:56:13 HTTP "POST" "/api/Users/register" responded 201 in 592.8729 ms
+09/26/2023 23:58:13 HTTP "POST" "/api/Users/register" responded 400 in 16.0680 ms
+09/26/2023 23:58:37 Register a user
+09/26/2023 23:58:37 Registering.....
+09/26/2023 23:58:38 Registered Successfully
+09/26/2023 23:58:38 HTTP "POST" "/api/Users/register" responded 201 in 78.2674 ms
+09/27/2023 00:04:39 Register a user
+09/27/2023 00:04:39 Registering.....
+09/27/2023 00:04:39 Registered Successfully
+09/27/2023 00:04:39 HTTP "POST" "/api/Users/register" responded 201 in 17.7473 ms
+09/27/2023 00:04:56 Login User
+09/27/2023 00:04:56 Login is in progress
+09/27/2023 00:04:56 Decoding the password in base64Encode
+09/27/2023 00:04:56 Started generting the token......
+09/27/2023 00:04:56 Token generted Successfully
+09/27/2023 00:04:56  Arun123 Logged In Successfully
+09/27/2023 00:04:56 HTTP "POST" "/api/Users/login" responded 200 in 468.2658 ms
+09/27/2023 14:50:06 Login User
+09/27/2023 14:50:06 Login is in progress
+09/27/2023 14:50:06 Decoding the password in base64Encode
+09/27/2023 14:50:06 Started generting the token......
+09/27/2023 14:50:06 Token generted Successfully
+09/27/2023 14:50:06  Arun123 Logged In Successfully
+09/27/2023 14:50:06 HTTP "POST" "/api/Users/login" responded 200 in 2578.2158 ms
+09/27/2023 15:27:40 Login User
+09/27/2023 15:27:40 Login is in progress
+09/27/2023 15:27:40 Decoding the password in base64Encode
+09/27/2023 15:27:40 Started generting the token......
+09/27/2023 15:27:40 Token generted Successfully
+09/27/2023 15:27:40  Arun123 Logged In Successfully
+09/27/2023 15:27:40 HTTP "POST" "/api/Users/login" responded 200 in 39.2835 ms
+09/27/2023 16:39:42 Login User
+09/27/2023 16:39:42 Login is in progress
+09/27/2023 16:39:42 Decoding the password in base64Encode
+09/27/2023 16:39:42 Started generting the token......
+09/27/2023 16:39:42 Token generted Successfully
+09/27/2023 16:39:42  Arun123 Logged In Successfully
+09/27/2023 16:39:42 HTTP "POST" "/api/Users/login" responded 200 in 29.4820 ms
+09/27/2023 16:41:28 Login User
+09/27/2023 16:41:28 Login is in progress
+09/27/2023 16:41:28 Decoding the password in base64Encode
+09/27/2023 16:41:28 Started generting the token......
+09/27/2023 16:41:28 Token generted Successfully
+09/27/2023 16:41:28  Virat123 Logged In Successfully
+09/27/2023 16:41:28 HTTP "POST" "/api/Users/login" responded 200 in 10.8180 ms
+09/28/2023 08:39:57 Login User
+09/28/2023 08:39:57 Login is in progress
+09/28/2023 08:39:57 Decoding the password in base64Encode
+09/28/2023 08:39:57 Started generting the token......
+09/28/2023 08:39:57 Token generted Successfully
+09/28/2023 08:39:57  Arun123 Logged In Successfully
+09/28/2023 08:39:57 HTTP "POST" "/api/Users/login" responded 200 in 2441.3090 ms
+10/04/2023 18:59:43 Login User
+10/04/2023 18:59:44 Login is in progress
+10/04/2023 18:59:44 Decoding the password in base64Encode
+10/04/2023 18:59:44 Started generting the token......
+10/04/2023 18:59:44 Token generted Successfully
+10/04/2023 18:59:44  Arun123 Logged In Successfully
+10/04/2023 18:59:44 HTTP "POST" "/api/Users/login" responded 200 in 2974.8814 ms
+10/04/2023 19:09:10 Login User
+10/04/2023 19:09:10 Login is in progress
+10/04/2023 19:09:10 Decoding the password in base64Encode
+10/04/2023 19:09:10 Started generting the token......
+10/04/2023 19:09:10 Token generted Successfully
+10/04/2023 19:09:10  Arun123 Logged In Successfully
+10/04/2023 19:09:10 HTTP "POST" "/api/Users/login" responded 200 in 30.1618 ms
+10/04/2023 19:16:00 Login User
+10/04/2023 19:16:00 Login is in progress
+10/04/2023 19:16:00 Decoding the password in base64Encode
+10/04/2023 19:16:00 Started generting the token......
+10/04/2023 19:16:00 Token generted Successfully
+10/04/2023 19:16:00  Arun123 Logged In Successfully
+10/04/2023 19:16:00 HTTP "POST" "/api/Users/login" responded 200 in 17.1956 ms
+10/04/2023 19:24:07 Login User
+10/04/2023 19:24:07 Login is in progress
+10/04/2023 19:24:07 Decoding the password in base64Encode
+10/04/2023 19:24:07 Started generting the token......
+10/04/2023 19:24:07 Token generted Successfully
+10/04/2023 19:24:07  Arun123 Logged In Successfully
+10/04/2023 19:24:07 HTTP "POST" "/api/Users/login" responded 200 in 10.1150 ms
+10/04/2023 19:39:45 Login User
+10/04/2023 19:39:45 Login is in progress
+10/04/2023 19:39:45 Decoding the password in base64Encode
+10/04/2023 19:39:45 Started generting the token......
+10/04/2023 19:39:45 Token generted Successfully
+10/04/2023 19:39:45  Arun123 Logged In Successfully
+10/04/2023 19:39:45 HTTP "POST" "/api/Users/login" responded 200 in 21.5912 ms
+10/04/2023 19:41:10 Login User
+10/04/2023 19:41:10 Login is in progress
+10/04/2023 19:41:10 Decoding the password in base64Encode
+10/04/2023 19:41:10 Login Failed Due to username or password are incorrect
+10/04/2023 19:41:10 HTTP "POST" "/api/Users/login" responded 401 in 7.7998 ms
+10/04/2023 19:41:14 Login User
+10/04/2023 19:41:14 Login is in progress
+10/04/2023 19:41:14 Decoding the password in base64Encode
+10/04/2023 19:41:14 Started generting the token......
+10/04/2023 19:41:14 Token generted Successfully
+10/04/2023 19:41:14  Arun123 Logged In Successfully
+10/04/2023 19:41:14 HTTP "POST" "/api/Users/login" responded 200 in 16.4019 ms
+10/04/2023 19:48:18 Login User
+10/04/2023 19:48:18 Login is in progress
+10/04/2023 19:48:18 Decoding the password in base64Encode
+10/04/2023 19:48:18 Started generting the token......
+10/04/2023 19:48:18 Token generted Successfully
+10/04/2023 19:48:18  Arun123 Logged In Successfully
+10/04/2023 19:48:18 HTTP "POST" "/api/Users/login" responded 200 in 9.1000 ms
+10/04/2023 19:53:04 Login User
+10/04/2023 19:53:04 Login is in progress
+10/04/2023 19:53:04 Decoding the password in base64Encode
+10/04/2023 19:53:04 Started generting the token......
+10/04/2023 19:53:04 Token generted Successfully
+10/04/2023 19:53:04  Arun123 Logged In Successfully
+10/04/2023 19:53:04 HTTP "POST" "/api/Users/login" responded 200 in 10.2008 ms
+10/04/2023 19:59:22 Login User
+10/04/2023 19:59:22 Login is in progress
+10/04/2023 19:59:22 Decoding the password in base64Encode
+10/04/2023 19:59:22 Started generting the token......
+10/04/2023 19:59:22 Token generted Successfully
+10/04/2023 19:59:22  Arun123 Logged In Successfully
+10/04/2023 19:59:22 HTTP "POST" "/api/Users/login" responded 200 in 10.5221 ms
+10/05/2023 13:07:09 Login User
+10/05/2023 13:07:09 Login User
+10/05/2023 13:07:09 Login is in progress
+10/05/2023 13:07:09 Login is in progress
+10/05/2023 13:07:09 Decoding the password in base64Encode
+10/05/2023 13:07:09 Decoding the password in base64Encode
+10/05/2023 13:07:09 Login Failed Due to username or password are incorrect
+10/05/2023 13:07:09 Login Failed Due to username or password are incorrect
+10/05/2023 13:07:09 HTTP "POST" "/api/Users/login" responded 401 in 3407.5547 ms
+10/05/2023 13:07:09 HTTP "POST" "/api/Users/login" responded 401 in 1510.0292 ms
+10/05/2023 13:07:19 Login User
+10/05/2023 13:07:19 Login is in progress
+10/05/2023 13:07:19 Decoding the password in base64Encode
+10/05/2023 13:07:19 Started generting the token......
+10/05/2023 13:07:19 Token generted Successfully
+10/05/2023 13:07:19  Arun123 Logged In Successfully
+10/05/2023 13:07:19 HTTP "POST" "/api/Users/login" responded 200 in 196.8899 ms
+10/05/2023 13:38:41 Login User
+10/05/2023 13:38:41 Login is in progress
+10/05/2023 13:38:41 Decoding the password in base64Encode
+10/05/2023 13:38:41 Started generting the token......
+10/05/2023 13:38:41 Token generted Successfully
+10/05/2023 13:38:41  Arun123 Logged In Successfully
+10/05/2023 13:38:41 HTTP "POST" "/api/Users/login" responded 200 in 22.5621 ms
+10/09/2023 20:05:21 Login User
+10/09/2023 20:05:22 Login is in progress
+10/09/2023 20:05:22 Decoding the password in base64Encode
+10/09/2023 20:05:22 Started generting the token......
+10/09/2023 20:05:22 Token generted Successfully
+10/09/2023 20:05:22  Arun123 Logged In Successfully
+10/09/2023 20:05:22 HTTP "POST" "/api/Users/login" responded 200 in 3140.8624 ms
+10/09/2023 20:35:42 Login User
+10/09/2023 20:35:42 Login is in progress
+10/09/2023 20:35:42 Decoding the password in base64Encode
+10/09/2023 20:35:42 Started generting the token......
+10/09/2023 20:35:42 Token generted Successfully
+10/09/2023 20:35:42  Arun123 Logged In Successfully
+10/09/2023 20:35:42 HTTP "POST" "/api/Users/login" responded 200 in 88.2017 ms
+10/09/2023 21:13:26 Login User
+10/09/2023 21:13:26 Login is in progress
+10/09/2023 21:13:26 Decoding the password in base64Encode
+10/09/2023 21:13:26 Started generting the token......
+10/09/2023 21:13:26 Token generted Successfully
+10/09/2023 21:13:26  Arun123 Logged In Successfully
+10/09/2023 21:13:26 HTTP "POST" "/api/Users/login" responded 200 in 20.0873 ms
+10/09/2023 21:28:35 Login User
+10/09/2023 21:28:35 Login is in progress
+10/09/2023 21:28:35 Decoding the password in base64Encode
+10/09/2023 21:28:35 Started generting the token......
+10/09/2023 21:28:35 Token generted Successfully
+10/09/2023 21:28:35  Arun123 Logged In Successfully
+10/09/2023 21:28:35 HTTP "POST" "/api/Users/login" responded 200 in 16.3585 ms
+10/09/2023 21:32:27 Login User
+10/09/2023 21:32:27 Login is in progress
+10/09/2023 21:32:27 Decoding the password in base64Encode
+10/09/2023 21:32:27 Started generting the token......
+10/09/2023 21:32:27 Token generted Successfully
+10/09/2023 21:32:27  Arun123 Logged In Successfully
+10/09/2023 21:32:27 HTTP "POST" "/api/Users/login" responded 200 in 10.0383 ms
+10/09/2023 21:39:58 Login User
+10/09/2023 21:39:58 Login is in progress
+10/09/2023 21:39:58 Decoding the password in base64Encode
+10/09/2023 21:39:58 Started generting the token......
+10/09/2023 21:39:58 Token generted Successfully
+10/09/2023 21:39:58  Arun123 Logged In Successfully
+10/09/2023 21:39:58 HTTP "POST" "/api/Users/login" responded 200 in 11.5917 ms
+10/09/2023 21:45:48 Login User
+10/09/2023 21:45:48 Login is in progress
+10/09/2023 21:45:48 Decoding the password in base64Encode
+10/09/2023 21:45:48 Started generting the token......
+10/09/2023 21:45:48 Token generted Successfully
+10/09/2023 21:45:48  Arun123 Logged In Successfully
+10/09/2023 21:45:48 HTTP "POST" "/api/Users/login" responded 200 in 12.9267 ms
+10/09/2023 22:26:45 Login User
+10/09/2023 22:26:45 Login is in progress
+10/09/2023 22:26:45 Decoding the password in base64Encode
+10/09/2023 22:26:45 Started generting the token......
+10/09/2023 22:26:45 Token generted Successfully
+10/09/2023 22:26:45  Arun123 Logged In Successfully
+10/09/2023 22:26:45 HTTP "POST" "/api/Users/login" responded 200 in 14.6140 ms
+10/10/2023 15:09:16 Login User
+10/10/2023 15:09:16 Login is in progress
+10/10/2023 15:09:16 Decoding the password in base64Encode
+10/10/2023 15:09:16 Started generting the token......
+10/10/2023 15:09:16 Token generted Successfully
+10/10/2023 15:09:16  Arun123 Logged In Successfully
+10/10/2023 15:09:16 HTTP "POST" "/api/Users/login" responded 200 in 31.0183 ms
+10/10/2023 15:12:07 Login User
+10/10/2023 15:12:07 Login is in progress
+10/10/2023 15:12:07 Decoding the password in base64Encode
+10/10/2023 15:12:07 Started generting the token......
+10/10/2023 15:12:07 Token generted Successfully
+10/10/2023 15:12:07  Arun123 Logged In Successfully
+10/10/2023 15:12:07 HTTP "POST" "/api/Users/login" responded 200 in 13.4150 ms
+10/11/2023 14:12:59 Login User
+10/11/2023 14:12:59 Login is in progress
+10/11/2023 14:12:59 Decoding the password in base64Encode
+10/11/2023 14:12:59 Started generting the token......
+10/11/2023 14:12:59 Token generted Successfully
+10/11/2023 14:12:59  Arun123 Logged In Successfully
+10/11/2023 14:13:00 HTTP "POST" "/api/Users/login" responded 200 in 2096.3248 ms
+10/11/2023 14:17:41 Login User
+10/11/2023 14:17:41 Login is in progress
+10/11/2023 14:17:41 Decoding the password in base64Encode
+10/11/2023 14:17:41 Started generting the token......
+10/11/2023 14:17:41 Token generted Successfully
+10/11/2023 14:17:41  Arun123 Logged In Successfully
+10/11/2023 14:17:41 HTTP "POST" "/api/Users/login" responded 200 in 23.6370 ms
+10/11/2023 14:46:16 Login User
+10/11/2023 14:46:16 Login is in progress
+10/11/2023 14:46:16 Decoding the password in base64Encode
+10/11/2023 14:46:16 Login Failed Due to username or password are incorrect
+10/11/2023 14:46:16 HTTP "POST" "/api/Users/login" responded 401 in 46.8732 ms
+10/11/2023 14:46:22 Login User
+10/11/2023 14:46:22 Login is in progress
+10/11/2023 14:46:22 Decoding the password in base64Encode
+10/11/2023 14:46:22 Started generting the token......
+10/11/2023 14:46:22 Token generted Successfully
+10/11/2023 14:46:22  Arun123 Logged In Successfully
+10/11/2023 14:46:22 HTTP "POST" "/api/Users/login" responded 200 in 9.2759 ms

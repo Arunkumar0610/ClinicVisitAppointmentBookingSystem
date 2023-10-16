@@ -1,0 +1,9 @@
+﻿C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\DataBase\DataBaseSettings.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\DataBase\IDataBaseSettings.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\MappingConfig.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\ClinicServices.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\DTO\ClinicServicesCreateDto.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\DTO\ClinicServicesDto.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\DTO\ScheduleAppointmentCreateDto.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\DTO\ScheduleAppointmentDto.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\ScheduleMicroservice\DataAccessLayer\Models\ScheduleAppointment.cs

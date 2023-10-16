@@ -1,0 +1,2 @@
+//List<string> servicelist = new List<string>(){ "Vaccination","Pedeatric Vaccine","Lab test","Fever and illness","Wound Care","General Visit","Diet","Injury","Trauma" };
+                    //clinicservices.Services = servicelist;

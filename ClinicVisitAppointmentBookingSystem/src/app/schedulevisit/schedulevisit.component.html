@@ -1,0 +1,62 @@
+<body>
+    <app-navbar></app-navbar>
+    <div class="container2">
+        <div class="card shadow">
+            <div class="card-body">
+                <h1 class="text3">Schedule Appointment</h1>
+                 <div id="message" style="padding:13px 13px;">
+                    <span *ngIf="adddetails" class="alert alert-danger alert-dismissible fade show">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" (click)="close()" aria-label="alert" ></button> 
+                        Selected Date & Time should be more than Current Date & Time</span>
+                </div> 
+                <form  [formGroup]="form" (ngSubmit)="ScheduleAppointment()" >
+                <div class="row" style="margin-bottom: 1%;">
+                    <div class="col-3" ><label for="patientuserName">Patient Username:</label></div>
+                    <div class="col-9"><input class="form-control" [class.is-invalid]="patientuserName?.invalid" id="patientuserName" placeholder="Patient Username" type="text" formControlName="patientuserName" required>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 1%;">
+                    <div class="col-3"><label for="clinicName">Clinic Name:</label></div>
+                    <div class="col-9"><input class="form-control" [class.is-invalid]="clinicName?.invalid" id="clinicName" placeholder="Clinic Name" type="text" formControlName="clinicName" required>
+                        </div><br>
+                </div>
+                <div class="row" style="margin-bottom: 1%;">
+                    <div class="col-3" ><label for="clinicAddress">Clinic Address:</label></div>
+                    <div class="col-9"><input class="form-control" [class.is-invalid]="clinicAddress?.invalid" id="clinicAddress" placeholder="Clinic Address" type="text" formControlName="clinicAddress" required>
+                        </div><br>
+                </div>
+                <div class="row" style="margin-bottom: 1%;">
+                    <div class="col-3"><label for="service">Service:</label></div>
+                    <div class="col-9"><input class="form-control" [class.is-invalid]="service?.invalid" id="service" placeholder="Service" type="text" formControlName="service" required>
+                       </div><br>
+                </div>
+                
+                <div class="row" style="margin-bottom: 1%;">
+                    <div class="datetime-container">
+                        <div class="row">
+                            <div  class="col">
+                        <div class=" date-picker">                    
+                          <label for="selectedDate">Select Date:</label>  <br>            
+                          <ngb-datepicker #dp formControlName="selectedDate" (ngModelChange)="updateTimeSlots()" class=" form-control-sm custom-datepicker"></ngb-datepicker>                   
+                        </div>
+                    </div>
+                    <div  class="col">
+                        <div class=" time-picker">
+                          <label for="selectedTimeSlot" >Select Time Slot:</label>
+                          <select class=" form-control-sm custom-select"  id="timeslot" formControlName="selectedTimeSlot">
+                            <option *ngFor="let slot of timeSlots" [value]="slot">{{ slot }}</option>
+                          </select>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 2%;">
+                    <button class="btn btn-dark"  id="btnschedule"  type="submit"  >Schedule</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="rectangle2"></div>
+</body>

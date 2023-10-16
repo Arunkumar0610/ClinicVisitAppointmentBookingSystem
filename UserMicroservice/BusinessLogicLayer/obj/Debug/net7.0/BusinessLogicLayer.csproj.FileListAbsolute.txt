@@ -1,0 +1,15 @@
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.deps.json
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.pdb
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\refint\BusinessLogicLayer.dll
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.pdb
+C:\Users\921611\source\repos\Clinic Visit Appointment Booking System\UserMicroservice\BusinessLogicLayer\obj\Debug\net7.0\ref\BusinessLogicLayer.dll
